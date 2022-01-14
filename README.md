@@ -8,6 +8,8 @@ following publication:
 Patrick Penner, Wolfgang Guba, Robert Schmidt, Agnes Meyder, Martin Stahl, and Matthias Rarey. (submitted).
 The Torsion Library: Semi-automated Improvement of Torsion Rules with SMARTScompare.
 
+A running instance ca be found here: [https://torsions.zbh.uni-hamburg.de/](https://torsions.zbh.uni-hamburg.de/)
+
 # Setup
 
 Get python dependencies with [conda](https://docs.conda.io/en/latest/miniconda.html).
