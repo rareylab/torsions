@@ -5,10 +5,12 @@ web. It consists of a django backend server with infrastructure to run asynchorn
 various management functionality for Torsion Library and TorsionAnalyzer data. More information can be found in the
 following publication:
 
-Patrick Penner, Wolfgang Guba, Robert Schmidt, Agnes Meyder, Martin Stahl, and Matthias Rarey. (submitted).
-The Torsion Library: Semi-automated Improvement of Torsion Rules with SMARTScompare.
+Patrick Penner, Wolfgang Guba, Robert Schmidt, Agnes Meyder, Martin Stahl, and Matthias Rarey. (2022).
+The Torsion Library: Semi-automated Improvement of Torsion Rules with SMARTScompare. J.Chem.Inf.Model. [https://doi.org/10.1021/acs.jcim.2c00043](https://doi.org/10.1021/acs.jcim.2c00043)
 
-A running instance ca be found here: [https://torsions.zbh.uni-hamburg.de/](https://torsions.zbh.uni-hamburg.de/)
+The frontend submodule can be found here: [https://github.com/rareylab/torsions_frontend](https://github.com/rareylab/torsions_frontend)
+
+A running instance can be found here: [https://torsions.zbh.uni-hamburg.de/](https://torsions.zbh.uni-hamburg.de/)
 
 # Setup
 
