@@ -7,7 +7,7 @@ fi
 
 if [ ! -f ./celery/run/torsions_worker.pid ]; then
   echo 'start celery worker'
-  celery -A torsions multi start torsions_worker --pidfile="$(pwd)/celery/run/%n.pid" --logfile="$(pwd)/celery/log/%n%I.log" --concurrency=4 --loglevel=INFO
+  celery -A torsions multi start torsions_worker --pidfile="$(pwd)/celery/run/%n.pid" --logfile="$(pwd)/celery/log/%n%I.log" --concurrency=4 --loglevel=INFO -O fair
 fi
 
 if [ ! -f ./gunicorn/gunicorn.pid ]; then
